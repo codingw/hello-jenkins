@@ -4,7 +4,7 @@ require('dotenv').config();
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('hello jenkinsss baru gw semoga lancar!!!');
+  res.send('hello jenkinsss baru gw semoga lancar!!!!');
 });
 
 console.log(process.env.PORT);
